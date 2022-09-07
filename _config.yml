@@ -27,8 +27,8 @@ components:
         hide-platforms: qq,facebook
     # 不蒜子访问统计
     busuanzi:
-        enabled: false
-        start_date: 2020-05-03
+        enabled: true
+        start_date: 2022-09-07
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -54,12 +54,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
+author: 喻向天
+organization: 武汉理工大学
 organization_url: 
-github_username: mzlogin
+github_username: YuxiangtianT
 location: Wuhan, China
-email: chumpma@gmail.com
+email: 1229856660@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -161,7 +161,7 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: true
     # 最多显示多少条搜索结果
     limit: 10
 
