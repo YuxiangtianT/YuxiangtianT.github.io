@@ -145,8 +145,8 @@ comments_provider: gitalk
 gitalk:
     owner: YuxiangtianT
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 04daf7c9a13454b7ec04
+    clientSecret: c486f6164bb4f3afc84263ab3aef94f76d4d5ece
 # utterances 配置参考：https://utteranc.es/
 # utterances:
 #     repo: mzlogin/blog-comments
