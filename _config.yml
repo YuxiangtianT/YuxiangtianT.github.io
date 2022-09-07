@@ -144,7 +144,7 @@ comments_provider: gitalk
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
     owner: YuxiangtianT
-    repo: blog-comments
+    repo: YuxiangtianT.github.io
     clientID: 04daf7c9a13454b7ec04
     clientSecret: c486f6164bb4f3afc84263ab3aef94f76d4d5ece
     admin: 
