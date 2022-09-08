@@ -18,11 +18,11 @@ topmost: true
 
 ![图片1.png](https://s2.loli.net/2022/09/08/LygibZWuIM1sRGp.png)
 
-2.在创建仓库界面，Repository name输入格式为：**<你的用户名username>.github.io** 。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
+2.在创建仓库界面，Repository name输入格式为： *<你的用户名username>.github.io* 。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
 
 ![图片2.png](https://s2.loli.net/2022/09/08/UQeBxdhiGfwTYIy.png)
 
-3.在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过 **<你的用户名username>.github.io** 访问你创建的个人主页。
+3.在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过 *<你的用户名username>.github.io* 访问你创建的个人主页。
 
 ![图片3.png](https://s2.loli.net/2022/09/08/drzpU5vKbO4m62u.png)
 
@@ -56,13 +56,13 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 
 ### 在Github Desktop的克隆仓库操作
 
-    1.选择想要克隆的仓库，然后直接点击clone XXX仓库。
+1.选择想要克隆的仓库，然后直接点击clone XXX仓库，再点击clone。
 
 ![图片9.png](https://s2.loli.net/2022/09/08/D7KX6NhVEFstJI2.png)
 
 ![图片10.png](https://s2.loli.net/2022/09/08/KJYnQq3pw29Pg8N.png)
 
-    2.然后选择你准备怎么使用这个仓库。如果你想对这个仓库作出贡献，你可以选择To contribute to the parent project；如果是为了个人目的，就选择For my own purposes。这里我们是为了把这个主题配置到我们的个人网页上，所以选择第二个。按照相同方式，可以把其他仓库也克隆到客户端上。然后可以在本地文件中查看各个仓库中包含的文件。
+2.然后选择你准备怎么使用这个仓库。如果你想对这个仓库作出贡献，你可以选择To contribute to the parent project；如果是为了个人目的，就选择For my own purposes。这里我们是为了把这个主题配置到我们的个人网页上，所以选择第二个。按照相同方式，可以把其他仓库也克隆到客户端上，在github desktop上可以看到这些已经克隆的仓库，然后可以在克隆仓库的本地文件中查看各个仓库中包含的文件。
 
 ![图片11.png](https://s2.loli.net/2022/09/08/eEhmFBiHRgCPXrV.png)
 
@@ -70,15 +70,15 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 
 ### 上传文件
 
-    我们在选择好主题之后，就需要把主题的源代码上传到我们自己的个人仓库中，才能生成对应的主题页面。上传的方式也有很多种，这里主要介绍两种：直接Add file或者通过Github Desktop上传。
+我们在选择好主题之后，就需要把主题的源代码上传到我们自己的个人仓库中，才能生成对应的主题页面。上传的方式也有很多种，这里主要介绍两种：直接Add file或者通过Github Desktop上传。
 
 #### Add file
 
-    在github网页上，点击Code->Add file，可以选择创建新文件或者更新文件。
+1.在github网页上，点击Code->Add file，可以选择创建新文件或者更新文件。
 
 ![图片13.png](https://s2.loli.net/2022/09/08/Yv6xGeqNtlQaRZW.png)
 
-    在新增/修改文件页面，选择需要上传的文件，然后添加对应的描述内容，就可以将文件上传到github页面。但这种方式比较适合上传的**文件数量比较少**的情况。
+2.在新增/修改文件页面，选择需要上传的文件，然后添加对应的描述内容，就可以将文件上传到github页面。但这种方式比较适合上传的 *文件数量比较少* 的情况。
 
 ![图片14.png](https://s2.loli.net/2022/09/08/5YnsRQmTytbKD2i.png)
 
@@ -86,19 +86,19 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 
 #### 通过Github Desktop上传
 
-    打开刚刚克隆的仓库的本地文件，我们的目的是将mzlogin.github.io文件中的主题配置复制到YuxiangtianT.github.io文件中。**注意：不要将.git文件复制过去了。**
+1.打开刚刚克隆下来的仓库的本地文件，我们的目的是将mzlogin.github.io文件中的主题配置复制到YuxiangtianT.github.io文件中。*注意：不要将.git文件复制过去了。*
 
 ![图片16.png](https://s2.loli.net/2022/09/08/1cXhqTzfkMSRQZK.png)
 
 ![图片17.png](https://s2.loli.net/2022/09/08/1Itr7P6UYVne5yW.png)
 
-    在Github Desktop的YuxiangtianT.github.io仓库中，可以在左侧看到有哪些文件需要上传，然后在左下角添加这次修改文件的信息描述，点击Commit to main提交commit，然后点击Push origin就可以把文件push到github页面。
+2.在Github Desktop的YuxiangtianT.github.io仓库中，可以在左侧看到有哪些文件需要上传，然后在左下角添加这次修改文件的信息描述，点击Commit to main提交commit，然后点击Push origin就可以把文件push到github上。
 
 ![图片18.png](https://s2.loli.net/2022/09/08/Cc9Y43pLMNqOxFv.png)
 
 ![图片19.png](https://s2.loli.net/2022/09/08/KY3EsUH6gMLxWqN.png)
 
-    刷新github页面，可以看到文件已上传，然后刷新个人主页，就可以看到主题已经配置到个人主页上了，最后就是对主题的配置进行修改，使其变为自己的博客。
+3.刷新github页面，可以看到文件已上传，然后刷新个人主页，就可以看到主题已经配置到个人主页上了，最后就是对主题的配置进行修改，使其变为自己的博客。
 
 ![图片20.png](https://s2.loli.net/2022/09/08/6gEuTpUMXvDhJK4.png)
 
