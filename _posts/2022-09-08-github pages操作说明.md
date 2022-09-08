@@ -18,11 +18,11 @@ topmost: true
 
 ![图片1.png](https://s2.loli.net/2022/09/08/LygibZWuIM1sRGp.png)
 
-2.在创建仓库界面，Repository name输入格式为： *<你的用户名username>.github.io* 。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
+2.在创建仓库界面，Repository name输入格式为：**<你的用户名username>.github.io**。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
 
 ![图片2.png](https://s2.loli.net/2022/09/08/UQeBxdhiGfwTYIy.png)
 
-3.在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过 *<你的用户名username>.github.io* 访问你创建的个人主页。
+3.在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过<你的用户名username>.github.io访问你创建的个人主页。
 
 ![图片3.png](https://s2.loli.net/2022/09/08/drzpU5vKbO4m62u.png)
 
@@ -78,7 +78,7 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 
 ![图片13.png](https://s2.loli.net/2022/09/08/Yv6xGeqNtlQaRZW.png)
 
-2.在新增/修改文件页面，选择需要上传的文件，然后添加对应的描述内容，就可以将文件上传到github页面。但这种方式比较适合上传的 *文件数量比较少* 的情况。
+2.在新增/修改文件页面，选择需要上传的文件，然后添加对应的描述内容，就可以将文件上传到github页面。但这种方式比较适合上传的**文件数量比较少**的情况。
 
 ![图片14.png](https://s2.loli.net/2022/09/08/5YnsRQmTytbKD2i.png)
 
@@ -86,7 +86,7 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 
 #### 通过Github Desktop上传
 
-1.打开刚刚克隆下来的仓库的本地文件，我们的目的是将mzlogin.github.io文件中的主题配置复制到YuxiangtianT.github.io文件中。*注意：不要将.git文件复制过去了。*
+1.打开刚刚克隆下来的仓库的本地文件，我们的目的是将mzlogin.github.io文件中的主题配置复制到YuxiangtianT.github.io文件中。**注意：不要将.git文件复制过去了。**
 
 ![图片16.png](https://s2.loli.net/2022/09/08/1cXhqTzfkMSRQZK.png)
 
@@ -103,6 +103,10 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 ![图片20.png](https://s2.loli.net/2022/09/08/6gEuTpUMXvDhJK4.png)
 
 ![图片21.png](https://s2.loli.net/2022/09/08/tPDLJqnMOrmauNX.png)
+
+## 主题介绍
+
+在配置主题之前，先对主题进行一个简要的介绍。
 
 ## 主题配置
 
