@@ -2,17 +2,15 @@
 layout: page
 title: About
 description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+keywords: 喻向天
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+这是喻向天的个人博客
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+专门记录平时学习的知识以及遇到的问题
 
 ## 联系
 
