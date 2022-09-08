@@ -14,29 +14,27 @@ topmost: true
 
 ## github pages创建流程
 
-1. 创建gtihub账号后，点击Create repository新建仓库。
+    1. 创建gtihub账号后，点击Create repository新建仓库。
 
 ![图片1.png](https://s2.loli.net/2022/09/08/LygibZWuIM1sRGp.png)
 
-2. 在创建仓库界面，Repository name输入格式为：**<你的用户名username>.github.io** 。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
+    2. 在创建仓库界面，Repository name输入格式为：**<你的用户名username>.github.io** 。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
 
 ![图片2.png](https://s2.loli.net/2022/09/08/UQeBxdhiGfwTYIy.png)
 
-3. 在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过 **<你的用户名username>.github.io** 访问你创建的个人主页。
+    3. 在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过 **<你的用户名username>.github.io** 访问你创建的个人主页。
 
 ![图片3.png](https://s2.loli.net/2022/09/08/drzpU5vKbO4m62u.png)
 
 ![图片4.png](https://s2.loli.net/2022/09/08/BHfTeuLdVD6Egc9.png)
 
-4. 到这一步，个人网页已经创建好了，并可以通过网址访问，但此时还需要配置个人网页的主题。下面将介绍克隆仓库/上传文件，并以配置主题为示例。
+    4. 到这一步，个人网页已经创建好了，并可以通过网址访问，但此时还需要配置个人网页的主题。下面将介绍克隆仓库/上传文件，并以配置主题为示例。
 
 ![图片5.png](https://s2.loli.net/2022/09/08/u6Db1wxsh2HVAiK.png)
 
 ## 克隆仓库/上传文件（推荐Github Desktop工具）
 
-    Github Desktop是github的客户端平台，在上面克隆仓库/上传文件比较方便，就可以不用Git输入命令行那种比较繁琐的方式。
-
-    主题链接：https://github.com/YuxiangtianT/YuxiangtianT.github.io，也可以自己在网上查找jekyll主题：https://jekyllthemes.io/free
+Github Desktop是github的客户端平台，在上面克隆仓库/上传文件比较方便，就可以不用Git输入命令行那种比较繁琐的方式。可以参考[主题链接](https://github.com/YuxiangtianT/YuxiangtianT.github.io)，也可以自己在网上查找[jekyll主题](https://jekyllthemes.io/free)。
 
 ### 克隆仓库
 
