@@ -10,7 +10,7 @@ topmost: true
 
 ## 前言
 
-本文主要介绍用github pages创建个人主页，用到的工具有github desktop和VS code(或者typora)。创建过程中可能会需要挂vpn，可以考虑[sockboom](https://sockboom.cool/auth/register?affid=158913)链接。
+本文主要介绍用github pages创建个人主页，用到的工具有github desktop和VS code(或者typora)。创建过程中可能会需要挂vpn，可以考虑[sockboom](https://sockboom.cool/auth/register?affid=158913)链接。文中的图片有部分可能看不清，可以缩放网页或者单独查看图片。
 
 ## github pages创建流程
 
@@ -106,15 +106,25 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 
 ## 主题介绍
 
-在配置主题之前，先对主题进行一个简要的介绍。
+在配置主题之前，先从主题的各个页面，对主题进行一个简要的介绍。这个主题主要有五个页面：首页、分类、维基、链接和关于。
+
+### 首页
+
+### 分类
+
+### 维基
+
+### 链接
+
+### 关于
 
 ## 主题配置
 
-    以这个主题为例，这里讲解如何去配置主题里的内容，如果选择其他主题，对应的md文件中也是有相关的配置说明。**修改配置文件时，各个网页（即.html文件）基本是不需要修改的。**
+以这个主题为例，这里讲解如何去配置主题里的内容。如果选择其他主题，对应的ReadMe文件中也是有相关的配置说明，请尽量按照配置说明来配置主题。**修改配置文件时，各个网页（即.html文件）基本是不需要修改的。**
 
 ### 修改主题基本配置
 
-    网站的配置基本都集中在_config.yml文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 url、title等。
+网站的配置基本都集中在_config.yml文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的url、title、subtitle等。**注意修改其中的网址，一定要修改为你的个人主页网址或者域名。**
 
 ![图片22.png](https://s2.loli.net/2022/09/08/DJCd9MQabqpONsE.png)
 
@@ -122,21 +132,36 @@ Github Desktop是github的客户端平台，在上面克隆仓库/上传文件�
 
 ### 评论模块
 
-    目前支持 disqus、gitment、gitalk、utterances 和 beaudar评论工具，选用其中一种就可以了，这里使用的是gitalk。它们各自的官方配置指南链接在 _config.yml文件的Comments一节里都贴出来了。
+目前支持disqus、gitment、gitalk、utterances和beaudar评论工具，选用其中一种来构建你的评论模块，这里使用的是[gitalk](https://github.com/gitalk/gitalk#install)。它们各自的官方配置指南链接在_config.yml文件的Comments一节里都贴出来了。
 
 ![图片24.png](https://s2.loli.net/2022/09/08/1c8PyoAsDFiY4j7.png)
 
-    参考gitalk的中文说明（https://github.com/gitalk/gitalk/blob/master/readme-cn.md），前面的安装部分在主题里已经配置好了，我们这里直接看使用部分。
-
-   1.首先选择一个公共github仓库来存储评论，可以直接用你现在的个人仓库username.github.io，或者你可以新建一个仓库来存储评论。别人在你的文章下面评论时，会在这个仓库的issue里生成对应的评论。
+gitalk的安装使用参考[gitalk中文说明](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)，安装部分在主题里已经配置好了，这里直接看使用部分。
 
 ![图片25.png](https://s2.loli.net/2022/09/08/J2jXpQHteShG7N9.png)
 
-   2.然后如果没有申请过Github Application，这里需要先申请一个（https://github.com/settings/applications/new）。
+1.首先选择一个公共github仓库来存储评论，可以直接用你现在的个人仓库username.github.io，或者你可以新建一个仓库来存储评论。别人在你的文章下面评论时，会在这个仓库的issue里生成对应的评论。
+
+2.然后如果没有申请过Github Application，这里需要先申请一个[Github Application](https://github.com/settings/applications/new)，申请页面中的各项内容已在图中进行了说明，**一定要注意Homepage URL和Authorization callback URL两个URL的填写。**
 
 ![图片26.png](https://s2.loli.net/2022/09/08/mSyCO6xJ29uYqPo.png)
 
-   3.申请Github Application后，会跳转到这个界面，然后新建一个Client secrets，将Client ID和Client secrets输入到_config.yml文件中。owner是你的用户名，repo是你存储评论的仓库名，可以是个人仓库或者新建一个仓库，admin可以空着。然后就可以在你的文章下面进行评论了。
+
+**完善到这儿**
+
+
+
+3.申请Github Application后，会跳转到这个界面，然后新建一个Client secrets，将Client ID和Client secrets输入到_config.yml文件中。owner是你的用户名，repo是你存储评论的仓库名，可以是个人仓库或者新建一个仓库，admin可以空着。然后就可以在你的文章下面进行评论了。
+
+![图片35.png](https://s2.loli.net/2022/09/08/rDgKGt63H2fj1oE.png)
+
+
+
+
+
+
+
+
 
 ![图片27.png](https://s2.loli.net/2022/09/08/tDperbfUgzi2AR1.png)
 
