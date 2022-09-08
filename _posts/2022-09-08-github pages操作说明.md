@@ -10,7 +10,7 @@ topmost: true
 
 ## 前言
 
-本文主要介绍用github pages创建个人主页，用到的工具有github desktop和VS code。创建过程中可能会需要挂vpn，可以考虑[sockboom](https://sockboom.cool/auth/register?affid=158913)链接。
+本文主要介绍用github pages创建个人主页，用到的工具有github desktop和VS code(或者typora)。创建过程中可能会需要挂vpn，可以考虑[sockboom](https://sockboom.cool/auth/register?affid=158913)链接。
 
 ## github pages创建流程
 
