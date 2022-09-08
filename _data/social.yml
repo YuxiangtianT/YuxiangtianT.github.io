@@ -12,7 +12,7 @@
 
 - sitename: 博客
   name: 喻向天的个人博客
-  url: https://yuxiangtiant.github.io/
+  url: https://yuxiangtiant.github.io
 
 # - sitename: 微博
 #   name: mzlogin
@@ -25,3 +25,11 @@
 # - sitename: 豆瓣
 #   name: 闷骚的程序员
 #   url: http://www.douban.com/people/freedim
+
+- sitename: 手机号
+  name: 15171230697
+  url:
+
+- sitename: QQ
+  name: 1229856660
+  url:
