@@ -8,23 +8,27 @@ topmost: true
 ---
 # github pages操作说明
 
+## 前言
+
+本文主要介绍用github pages创建个人主页，用到的工具有github desktop和VS code。创建过程中可能会需要挂vpn，可以考虑[sockboom](https://sockboom.cool/auth/register?affid=158913)链接。
+
 ## github pages创建流程
 
 1. 创建gtihub账号后，点击Create repository新建仓库。
 
 ![图片1.png](https://s2.loli.net/2022/09/08/LygibZWuIM1sRGp.png)
 
-2. 在创建仓库界面，Repository name输入格式为：**<你的用户名username>.github.io**。再勾选Add a README file为仓库添加readme文件。点击Create repository创建仓库。
+2. 在创建仓库界面，Repository name输入格式为：**<你的用户名username>.github.io** 。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
 
 ![图片2.png](https://s2.loli.net/2022/09/08/UQeBxdhiGfwTYIy.png)
 
-3. 在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过<你的用户名username>.github.io访问你创建的个人主页。
+3. 在创建完个人仓库后，进入仓库。在Settings->Pages可以看到github pages相关信息。等待几分钟后刷新，页面上会显示可以通过 **<你的用户名username>.github.io** 访问你创建的个人主页。
 
 ![图片3.png](https://s2.loli.net/2022/09/08/drzpU5vKbO4m62u.png)
 
 ![图片4.png](https://s2.loli.net/2022/09/08/BHfTeuLdVD6Egc9.png)
 
-    4.至此，个人网页已经创建好了，并且可以通过网址访问，但此时还需要配置个人网页的主题。下面将介绍克隆仓库/上传文件，并以配置主题为示例.
+4. 到这一步，个人网页已经创建好了，并可以通过网址访问，但此时还需要配置个人网页的主题。下面将介绍克隆仓库/上传文件，并以配置主题为示例。
 
 ![图片5.png](https://s2.loli.net/2022/09/08/u6Db1wxsh2HVAiK.png)
 
