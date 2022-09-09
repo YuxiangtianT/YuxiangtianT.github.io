@@ -10,7 +10,7 @@ topmost: true
 
 ## 前言
 
-本文主要介绍用github pages创建个人主页，用到的工具有github desktop和VS code(或者typora)。创建过程中可能会需要挂vpn，可以考虑[sockboom](https://sockboom.cool/auth/register?affid=158913)链接。文中的图片有部分可能看不清，可以缩放网页或者单独查看图片。
+本文主要介绍用github pages创建个人主页，用到的工具有github desktop和VS code(或者typora)。创建过程中可能会需要挂vpn，可以考虑[sockboom](https://sockboom.cool/auth/register?affid=158913)链接。**文中的图片有部分可能看不清，可以缩放网页或者单独查看图片**。
 
 ## github pages创建流程
 
@@ -18,7 +18,7 @@ topmost: true
 
 ![图片1.png](https://s2.loli.net/2022/09/08/LygibZWuIM1sRGp.png)
 
-2.在创建仓库界面，Repository name输入格式为：**<你的用户名username>.github.io**。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
+2.在创建仓库界面，Repository name输入格式为： **<你的用户名username>.github.io** 。再勾选Add a README file为仓库添加ReadMe文件。点击Create repository创建仓库。
 
 ![图片2.png](https://s2.loli.net/2022/09/08/UQeBxdhiGfwTYIy.png)
 
@@ -194,7 +194,7 @@ gitalk的安装使用参考[gitalk中文说明](https://github.com/gitalk/gitalk
 
 ![图片26.png](https://s2.loli.net/2022/09/08/mSyCO6xJ29uYqPo.png)
 
-3.申请Github Application后，会跳转到这个界面，然后新建一个Client secrets。**注意，一定 要记录这个Client secrets，页面刷新后就会变成图中的形式，隐藏起来**。owner是你的用户名，repo是你存储评论的仓库名，可以是个人仓库或者新建一个仓库，admin可以空着。然后将owner、repo、Client ID和Client secrets输入到_config.yml文件的对应位置中，就可以在你的文章下面进行评论了。
+3.申请Github Application后，会跳转到这个界面，然后新建一个Client secrets。**注意，一定要记录这个Client secrets，页面刷新后就会变成图中的形式，隐藏起来**。owner是你的用户名，repo是你存储评论的仓库名，可以是个人仓库或者新建一个仓库，admin可以空着。然后将owner、repo、Client ID和Client secrets输入到_config.yml文件的对应位置中，就可以在你的文章下面进行评论了。
 
 ![图片35.png](https://s2.loli.net/2022/09/08/rDgKGt63H2fj1oE.png)
 
@@ -227,7 +227,6 @@ _posts文件夹中是已发布的博客文章，_drafts文件夹中是尚未发�
 6.文章内容。
 
 ![图片29.png](https://s2.loli.net/2022/09/08/VrSsuQ58qLlivIT.png)
-
 
 #### _wiki文件夹
 
