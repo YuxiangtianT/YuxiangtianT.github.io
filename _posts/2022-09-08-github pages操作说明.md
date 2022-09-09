@@ -194,53 +194,79 @@ gitalk的安装使用参考[gitalk中文说明](https://github.com/gitalk/gitalk
 
 ![图片26.png](https://s2.loli.net/2022/09/08/mSyCO6xJ29uYqPo.png)
 
-
-**完善到这儿**
-
-
-
-3.申请Github Application后，会跳转到这个界面，然后新建一个Client secrets，将Client ID和Client secrets输入到_config.yml文件中。owner是你的用户名，repo是你存储评论的仓库名，可以是个人仓库或者新建一个仓库，admin可以空着。然后就可以在你的文章下面进行评论了。
+3.申请Github Application后，会跳转到这个界面，然后新建一个Client secrets。**注意，一定 要记录这个Client secrets，页面刷新后就会变成图中的形式，隐藏起来**。owner是你的用户名，repo是你存储评论的仓库名，可以是个人仓库或者新建一个仓库，admin可以空着。然后将owner、repo、Client ID和Client secrets输入到_config.yml文件的对应位置中，就可以在你的文章下面进行评论了。
 
 ![图片35.png](https://s2.loli.net/2022/09/08/rDgKGt63H2fj1oE.png)
 
-
-
-
-
-
-
-
-
 ![图片27.png](https://s2.loli.net/2022/09/08/tDperbfUgzi2AR1.png)
 
-   至此，主题的基本配置已经配置好了。个人主页如下图所示，下面将介绍如何在主页上添加自己的内容。
+4.到这一步，主题的基本配置已经配置好了。个人主页如下图所示，下面将介绍如何在主页上添加自己的内容。
 
 ![图片28.png](https://s2.loli.net/2022/09/08/9XRHJyCNSMoKLcQ.png)
 
-### 往主页添加内容
+### 往主页添加内容（VS Code或者typora）
 
-    **添加的内容都是.md文件的形式。**
+**添加的内容都是.md文件的形式。** 这是是通过VS Code来写markdown文件，有关markdown的语法可以参考[链接](https://yuxiangtiant.github.io/2022/09/08/markdown/)。
 
-    1._posts文件夹中是已发布的博客文章，_drafts文件夹中是尚未发布的博客文章。下面是文章模板的说明。
+在仓库的本地文件中，添加的内容主要与 **_posts、_drafts和_wiki** 这三个文件夹有关。
+
+#### _posts和_drafts文件夹
+
+_posts文件夹中是已发布的博客文章，_drafts文件夹中是尚未发布的博客文章。这两个文件夹的 **.md文件命名格式：年-月-日-文章名** ，例如，2022-09-08-操作说明。博客文章的模板是一样的，下面是文章模板的说明：
+
+1.layout是发布的位置。这里是发布在首页，对应的是post。
+
+2.title是文章的标题。
+
+3.categories是文章的标签。可以是一个或者多个标签。在发布一篇文章后，如果标签是第一次出现，在标签列表会自动生成标签。并且在分类页面的标签列表也会自动生成标签，文章会自动归类。
+
+4.description是文章的描述。
+
+5.keywords是文章的关键字。
+
+6.文章内容。
 
 ![图片29.png](https://s2.loli.net/2022/09/08/VrSsuQ58qLlivIT.png)
 
-    2._wiki文件夹中是已发布的wiki页面。下面是页面模板的说明。
+
+#### _wiki文件夹
+
+_wiki文件夹中是已发布的wiki页面。**.md文件命名格式：一级标签-<二级标签-> 文章名** ,例如，Android-文章名是一级标签，而Android-Tools-文章名是一级标签和二级标签。下面是页面模板的说明：
+
+1.layout是发布的位置。这里是发布在维基，对应的是wiki。
+
+2.title是文章的标题。
+
+3.cate1是文章的一级标签。
+
+4.cate2是文章的二级标签。
+
+5.description是文章的描述。
+
+6.keywords是文章的关键字。
+
+7.文章内容。
 
 ![图片30.png](https://s2.loli.net/2022/09/08/Mml6Z5dPxkBbQ7W.png)
 
 ### 修改「关于」页面
 
-    pages/about.md文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息，包括_data目录下的skills.yml和social.yml文件里的数据。
+pages/about.md文件内容对应网站的「关于」页面，里面的内容多为个人相关信息，将它们替换成你自己的信息，包括_data目录下的skills.yml和social.yml文件里的数据。
+
+1.在pages/about.md文件里修改个人描述。
 
 ![图片31.png](https://s2.loli.net/2022/09/08/gsaG5RWQ4E213dM.png)
 
+2.在skills.yml文件里修改你会的技能。
+
 ![图片32.png](https://s2.loli.net/2022/09/08/qJpv9VODgtuWmrT.png)
+
+3.在social.yml文件里修改你的相关链接和友情链接。
 
 ![图片33.png](https://s2.loli.net/2022/09/08/mpGh4iKCFx9PeXg.png)
 
 ### 修改「链接」页面
 
-    修改_data目录下的links.yml文件里的数据。
+修改_data目录下的links.yml文件里的数据。
 
 ![图片34.png](https://s2.loli.net/2022/09/08/l9EGIu3fkBpvtOM.png)
